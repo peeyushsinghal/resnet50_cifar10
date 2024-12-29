@@ -1,0 +1,50 @@
+model:
+  name: "resnet50"
+  num_classes: 10
+  print_summary: False
+  print_model: False
+  
+data:
+  batch_size: 128
+  num_workers: 4
+  dataset: "cifar10"
+  mean: [0.4914, 0.4822, 0.4465]
+  std: [0.2470, 0.2435, 0.2616]
+  
+transforms:
+  resize: 
+    height: 32
+    width: 32
+  center_crop:
+    height: 32
+    width: 32
+  horizontal_flip_prob: 0.5
+  shift_scale_rotate:
+    shift_limit: 0.1
+    scale_limit: 0.1
+    rotate_limit: 15
+    p: 0.5
+  coarse_dropout:
+    max_holes: 8
+    max_height: 8
+    max_width: 8
+    p: 0.5
+    
+training:
+  epochs: 1
+  lr_finder:
+    enabled: False
+    start_lr: 1e-7
+    end_lr: 10
+    num_iter: 100
+  optimizer:
+    name: 'sgd'
+    lr: 0.01
+    momentum: 0.9
+    weight_decay: 0.0005
+  scheduler:
+    name: 'onecycle'
+    max_lr: 0.1  # This will be found using lr_finder
+    pct_start: 0.3
+    div_factor: 10  # initial_lr = max_lr/div_factor
+    final_div_factor: 100  # final_lr = initial_lr/final_div_factor 
