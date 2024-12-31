@@ -1,0 +1,65 @@
+
+Epoch 23/30
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 3980/3980 [04:52<00:00, 13.61it/s, batch=3980, loss=1.72, accuracy=55.9, lr=0.0752]
+-----Checkpoint saved to checkpoints/imagenet_subset_resnet50
+-----Model saved to checkpoints/imagenet_subset_resnet50
+Testing: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 157/157 [00:08<00:00, 18.25it/s, loss=1.7, accuracy=55.7]
+Train Loss: 1.7196, Train Acc: 55.89%
+Test Loss: 1.7018, Test Acc: 55.68%
+
+Epoch 24/30
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 3980/3980 [04:53<00:00, 13.54it/s, batch=3980, loss=1.63, accuracy=57.8, lr=0.0567]
+-----Checkpoint saved to checkpoints/imagenet_subset_resnet50
+-----Model saved to checkpoints/imagenet_subset_resnet50
+Testing: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 157/157 [00:08<00:00, 18.89it/s, loss=1.56, accuracy=59.4]
+Train Loss: 1.6337, Train Acc: 57.77%
+Test Loss: 1.5647, Test Acc: 59.36%
+
+Epoch 25/30
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 3980/3980 [04:52<00:00, 13.62it/s, batch=3980, loss=1.53, accuracy=60.1, lr=0.0403]
+-----Checkpoint saved to checkpoints/imagenet_subset_resnet50
+-----Model saved to checkpoints/imagenet_subset_resnet50
+Testing: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 157/157 [00:08<00:00, 18.43it/s, loss=1.39, accuracy=63.7]
+Train Loss: 1.5334, Train Acc: 60.10%
+Test Loss: 1.3907, Test Acc: 63.74%
+
+Epoch 26/30
+Training: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 3980/3980 [04:52<00:00, 13.63it/s, batch=3980, loss=1.4, accuracy=63.4, lr=0.0263]
+-----Checkpoint saved to checkpoints/imagenet_subset_resnet50
+-----Model saved to checkpoints/imagenet_subset_resnet50
+Testing: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 157/157 [00:08<00:00, 18.89it/s, loss=1.21, accuracy=68.5]
+Train Loss: 1.4047, Train Acc: 63.37%
+Test Loss: 1.2114, Test Acc: 68.52%
+
+Epoch 27/30
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 3980/3980 [04:53<00:00, 13.56it/s, batch=3980, loss=1.26, accuracy=66.8, lr=0.0151]
+-----Checkpoint saved to checkpoints/imagenet_subset_resnet50
+-----Model saved to checkpoints/imagenet_subset_resnet50
+Testing: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 157/157 [00:08<00:00, 17.58it/s, loss=1.06, accuracy=71.9]
+Train Loss: 1.2607, Train Acc: 66.82%
+Test Loss: 1.0563, Test Acc: 71.86%
+
+Epoch 28/30
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 3980/3980 [04:53<00:00, 13.58it/s, batch=3980, loss=1.1, accuracy=70.6, lr=0.00696]
+-----Checkpoint saved to checkpoints/imagenet_subset_resnet50
+-----Model saved to checkpoints/imagenet_subset_resnet50
+Testing: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 157/157 [00:08<00:00, 18.92it/s, loss=0.922, accuracy=74.8]
+Train Loss: 1.1028, Train Acc: 70.64%
+Test Loss: 0.9224, Test Acc: 74.78%
+
+Epoch 29/30
+Training: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 3980/3980 [04:51<00:00, 13.66it/s, batch=3980, loss=0.956, accuracy=74.5, lr=0.00197]
+-----Checkpoint saved to checkpoints/imagenet_subset_resnet50
+-----Model saved to checkpoints/imagenet_subset_resnet50
+Testing: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 157/157 [00:08<00:00, 18.30it/s, loss=0.789, accuracy=78.5]
+Train Loss: 0.9559, Train Acc: 74.48%
+Test Loss: 0.7891, Test Acc: 78.54%
+
+Epoch 30/30
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 3980/3980 [04:52<00:00, 13.61it/s, batch=3980, loss=0.854, accuracy=77.1, lr=0.0003]
+-----Checkpoint saved to checkpoints/imagenet_subset_resnet50
+-----Model saved to checkpoints/imagenet_subset_resnet50
+ ... (more hidden) ...
+Train Loss: 0.8536, Train Acc: 77.12%
+Test Loss: 0.7676, Test Acc: 79.58%
+-----Model saved to checkpoints/imagenet_subset_resnet50
